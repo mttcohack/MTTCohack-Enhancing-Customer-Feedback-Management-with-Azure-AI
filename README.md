@@ -4,7 +4,7 @@
 
 Contoso, a leading retail company, is facing challenges in managing and analyzing customer feedback. The current system is manual, time-consuming, and lacks the ability to efficiently process large volumes of feedback. This results in delayed responses to customer concerns and missed opportunities for improving customer satisfaction.
 
-![image](./images/image.png)
+![image](./images/image1.png)
 
 ## Requirements
 
