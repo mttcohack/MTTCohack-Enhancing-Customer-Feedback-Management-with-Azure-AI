@@ -31,8 +31,8 @@ This hack will help you learn:
   
 #### Resources
 
-- [**PII Detection**][https://learn.microsoft.com](https://learn.microsoft.com/en-us/azure/ai-services/language-service/personally-identifiable-information/quickstart?tabs=windows&pivots=programming-language-python))
-- [**Sentiment analysis**][https://learn.microsoft.com](https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-cognitive-services-sentiment))
-- [**Azure Function**][https://learn.microsoft.com](https://learn.microsoft.com/en-us/azure/azure-functions/functions-get-started?pivots=programming-language-python))
+- [**PII Detection**](https://learn.microsoft.com/en-us/azure/ai-services/language-service/personally-identifiable-information/quickstart?tabs=windows&pivots=programming-language-python))
+- [**Sentiment analysis**](https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-cognitive-services-sentiment))
+- [**Azure Function**](https://learn.microsoft.com/en-us/azure/azure-functions/functions-get-started?pivots=programming-language-python))
 
 
