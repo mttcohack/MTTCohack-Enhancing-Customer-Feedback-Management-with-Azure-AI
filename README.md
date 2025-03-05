@@ -20,14 +20,37 @@ This hack will help you learn:
 - Implement Azure Functions: Learn how to create and deploy Azure Functions to process customer feedback.
 - Data Storage and Analysis: Understand how to store processed feedback in Azure Storage Account and analyze it for reporting purposes.
 
-## Success Criteria
+## **Success Criteria:**
+- You should be able to remove PII and get the sentiment score (using Azure Function) and able to save the sanitized feedback with score in a different container of the storage account
 
-### Challenge 1
+---
+### **Challenges:**
 
-- Effective PII Detection: Successfully implement Azure AI Services to detect and mask Personally Identifiable Information (PII) in customer feedback.
-- Accurate Sentiment Analysis: Achieve accurate sentiment analysis of customer feedback using Azure AI Services.
-- Efficient Data Storage: Store sanitized feedback and sentiment scores in a scalable Azure Storage Account.
-- Automation of Feedback Management: Automate the feedback management process to reduce manual effort and improve efficiency.
+#### **Challenge 1: Setting Up the Foundation**
+- Create an Azure Function App.
+- Configure an Azure AI service for PII (Personally Identifiable Information) detection and sentiment analysis.
+- Set up a Storage Account to handle input and output data.
+
+**Goal:** Participants will demonstrate proficiency in configuring Azure resources to form the backbone of the automation pipeline.
+
+---
+
+#### **Challenge 2: Implementing the Blob-Triggered Function**
+- Write a Node.js function that gets triggered whenever a new file is uploaded to the blob storage container.
+- Ensure the function is configured correctly to process the uploaded file.
+
+**Goal:** Participants will show their ability to integrate Azure Function Apps with Blob Storage for data-driven event handling.
+
+---
+
+#### **Challenge 3: Processing and Transforming Feedback**
+- Enhance the Azure Function to:
+  - Receive the input file from Blob Storage.(You can upload the text.txt file in the repo (under infra folder) to the blob you have created)
+  - Use the Azure AI service to analyze feedback for sentiment and detect PII.
+  - Redact any PII from the data.
+- Output the sanitized and analyzed results into a different blob container.
+
+**Goal:** Participants will exhibit skills in using Azure AI services and designing effective data pipelines.
   
 #### Resources
 
