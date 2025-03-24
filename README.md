@@ -29,7 +29,7 @@ This hack will help you learn:
 #### **Challenge 1: Setting Up the Foundation**
 - Create an Azure Function App.
 - Configure an Azure AI service for PII (Personally Identifiable Information) detection and sentiment analysis.
-- Set up a Storage Account to handle input and output data. You have to create a storage account with two containers (one where you will upload the text file (containing customer feedback) and the second one will receive the processed feedback from Azure function)
+- Set up a Storage Account to handle input and output data. You have to create a storage account with two containers a)1.	feedback b)processed-feedback (feedback: where you will upload the text file (containing customer feedback),  processed-feedback: will receive the processed feedback from Azure function)
 
 **Goal:** Participants will demonstrate proficiency in configuring Azure resources to form the backbone of the automation pipeline.
 
@@ -45,10 +45,10 @@ This hack will help you learn:
 
 #### **Challenge 3: Processing and Transforming Feedback**
 - Enhance the Azure Function to:
-  - Receive the input file from Blob Storage.(You can upload the text.txt file in the repo (under infra folder) to the blob you have created)
+  - Receive the input file from Blob Storage.(You can upload the text.txt file in the repo (under infra folder) to the "	feedback" container)
   - Use the Azure AI service to analyze feedback for sentiment and detect PII.
   - Redact any PII from the data.
-- Output the sanitized and analyzed results into a different blob container.
+- Output the sanitized and analyzed results into a "processed-feedback" container.
 
 **Goal:** Participants will exhibit skills in using Azure AI services and designing effective data pipelines.
   
