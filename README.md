@@ -36,7 +36,7 @@ This hack will help you learn:
 ---
 
 #### **Challenge 2: Implementing the Blob-Triggered Function**
-- Write a Node.js function that gets triggered whenever a new file is uploaded to the blob storage container.
+- Write a Node.js function that gets triggered whenever a new file is uploaded to the blob storage container("feedback" one you created earlier).
 - Ensure the function is configured correctly to process the uploaded file.
 
 **Goal:** Participants will show their ability to integrate Azure Function Apps with Blob Storage for data-driven event handling.
