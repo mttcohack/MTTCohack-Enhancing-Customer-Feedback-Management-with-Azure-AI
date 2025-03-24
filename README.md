@@ -18,7 +18,7 @@ This hack will help you learn:
 
 - Understand Azure AI Services: Gain a comprehensive understanding of Azure AI capabilities, including PII detection and sentiment analysis.
 - Implement Azure Functions: Learn how to create and deploy Azure Functions to process customer feedback.
-- Data Storage and Analysis: Understand how to store processed feedback in Azure Storage Account and analyze it for reporting purposes.
+- Data Storage and Analysis: Understand how to store processed feedback in Azure Storage Account.
 
 ## **Success Criteria:**
 - You should be able to remove PII and get the sentiment score (using Azure Function) and able to save the sanitized feedback with score in a different container("processed-feedback") of the storage account
