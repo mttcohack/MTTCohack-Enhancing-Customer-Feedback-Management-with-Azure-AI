@@ -21,7 +21,7 @@ This hack will help you learn:
 - Data Storage and Analysis: Understand how to store processed feedback in Azure Storage Account and analyze it for reporting purposes.
 
 ## **Success Criteria:**
-- You should be able to remove PII and get the sentiment score (using Azure Function) and able to save the sanitized feedback with score in a different container of the storage account
+- You should be able to remove PII and get the sentiment score (using Azure Function) and able to save the sanitized feedback with score in a different container("processed-feedback") of the storage account
 
 ---
 ### **Challenges:**
