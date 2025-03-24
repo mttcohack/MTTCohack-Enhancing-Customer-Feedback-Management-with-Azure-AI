@@ -27,7 +27,7 @@ This hack will help you learn:
 ### **Challenges:**
 
 #### **Challenge 1: Setting Up the Foundation**
-- Create an Azure Function App (use Consumption plan).
+- Create an Azure Function App (use Consumption plan & OS as windows).
 - Create an Azure AI service for PII (Personally Identifiable Information) detection and sentiment analysis.
 - Set up a Storage Account to handle input and output data. You have to create a storage account with two containers a)feedback b)processed-feedback (feedback: where you will upload the text file (containing customer feedback),  processed-feedback: will receive the processed feedback from Azure function)
 
